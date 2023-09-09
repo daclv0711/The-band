@@ -10,32 +10,6 @@
 <!-- 	<script async data-cfasync="false" src="https://cdn-stage.pubfuture-ad.com/v2/unit/pt.js" type="text/javascript"></script> -->
 </head>
 <body>
-	<script data-cfasync="false" type="text/javascript" id="clever-core">
-                                /* <![CDATA[ */
-                                    (function (document, window) {
-                                        var a, c = document.createElement("script"), f = window.frameElement;
-
-                                        c.id = "CleverCoreLoader72875";
-                                        c.src = "https://scripts.cleverwebserver.com/422e03c48915d7ed9e8f891d7c75d412.js";
-
-                                        c.async = !0;
-                                        c.type = "text/javascript";
-                                        c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
-                                        c.setAttribute("data-callback", "put-your-callback-function-here");
-                                        c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
-                                        c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
-
-                                        try {
-                                            a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
-                                        } catch (e) {
-                                            a = !1;
-                                        }
-
-                                        a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
-                                        a.parentNode.insertBefore(c, a);
-                                    })(document, window);
-                                /* ]]> */
-                                </script>
 	<div id="main">
 		<div id="header">
 			<!-- Begin: nav -->
@@ -216,5 +190,32 @@
                 unit: "64a38c1dcfdd7b004193beec", id: "pf-1303-1"
             })</script>
     </div>
+	<!-- start advertising -->
+    <script data-cfasync="false" type="text/javascript" id="clever-core">
+        /* <![CDATA[ */
+        (function(document, window) {
+            var a, c = document.createElement("script"),
+                f = window.frameElement;
+
+            c.id = "CleverCoreLoader61126";
+            c.src = "//scripts.cleverwebserver.com/6f0b37f247acb98440090f21acd2e5fa.js";
+
+            c.async = !0;
+            c.type = "text/javascript";
+            c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+            c.setAttribute("data-callback", "put-your-callback-macro-here");
+
+            try {
+                a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+            } catch (e) {
+                a = !1;
+            }
+
+            a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+            a.parentNode.insertBefore(c, a);
+        })(document, window);
+        /* ]]> */
+    </script>
+    <!-- end advertising -->
 </body>
 </html>
