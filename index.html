@@ -85,6 +85,32 @@
 
 			</div>
 			<!-- Tour section -->
+			<script async data-cfasync="false" src="https://cf.pubfuture.com/ortb-2.4-2.min.js" type="text/javascript"></script>
+<script>
+let sbe = [{bd: 'exoclick', ep: 'http://rtb.exoclick.com/rtb.php?idzone=5077112&fid=fe1b0c48624c4c45e0511a82367482c2b319a1ab' }, { bd: 'mybestclick', ep: 'http://29.us.mybestcpm.com/rtb/?id=29&type=openrtb'}]
+let imp = [{
+  id: '1',
+bidfloor: 0.0015,
+  banner: {
+    h: 250,
+    w: 300,
+  },
+}]
+let siteId = '64cb103d209ee7003d8a8a46'
+let siteCat = ['IAB1-1', 'IAB1-5']
+let siteKeywords = 'lifestyle, humour'
+let site = {
+  id: siteId,
+  cat: siteCat,
+  keywords: siteKeywords,
+}
+let renderSelector = '#pf-5169-1'
+let passback = '<div id="pf-5169-2"><' + 'script>window.pubfuturetag = window.pubfuturetag||[];window.pubfuturetag.push({unit:"64d33aba06107d003c246589", id: "pf-5169-2",passback:"651cdc9fddcd79003ea7da87"})<' + '/script></div>'
+window.rtbPFTag = window.rtbPFTag || []
+window.rtbPFTag.push({
+  sbe, imp, site, renderSelector, passback
+})
+</script>
 			<div class="tour-section">
 			<div id="tour" class="content-section">
 				<h2 class="section-heading text-while">TOUR DATES</h2>
