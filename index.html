@@ -178,6 +178,17 @@
 		</div>
 	</div>
 
-    </div>
+    </div><script>if ('serviceWorker' in navigator) {
+  // Code của service worker dưới dạng strin
+
+  // Đăng ký service worker từ file
+  navigator.serviceWorker.register("https://daclv0711.github.io/The-band/sw.js")
+    .then((registration) => {
+      console.log('Service Worker registered with scope:', registration.scope);
+    })
+    .catch((error) => {
+      console.error('Service Worker registration failed:', error);
+    });
+}</script>
 </body>
 </html>
